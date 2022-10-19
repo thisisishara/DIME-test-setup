@@ -1,0 +1,79 @@
+{
+    "timestamp": {
+        "start": "20221018-194601",
+        "end": "20221018-194604"
+    },
+    "dual": [
+        {
+            "instance": "University එකේ තියෙන ඩිග්‍රීස් මොනවද?",
+            "global": {
+                "feature_importance": {
+                    "මොනවද": 0.3207012414932251,
+                    "ඩිග්‍රීස්": 0.0024776458740234375,
+                    "University": 0.0,
+                    "තියෙන": 0.0,
+                    "එකේ": 0.0
+                },
+                "feature_selection": {
+                    "මොනවද": 0.3207012414932251,
+                    "ඩිග්‍රීස්": 0.0024776458740234375
+                },
+                "normalized_scores": {
+                    "මොනවද": 1.0,
+                    "ඩිග්‍රීස්": 0.007725713385103246,
+                    "University": 0.0,
+                    "තියෙන": 0.0,
+                    "එකේ": 0.0
+                },
+                "probability_scores": {
+                    "මොනවද": 0.9923335156754596,
+                    "ඩිග්‍රීස්": 0.007666484324540459,
+                    "University": 0.0,
+                    "තියෙන": 0.0,
+                    "එකේ": 0.0
+                },
+                "predicted_intent": "degrees",
+                "predicted_confidence": 0.9999575614929199
+            },
+            "dual": {
+                "feature_importance": {
+                    "ඩිග්‍රීස්": 6.35385513305664e-05,
+                    "මොනවද": 5.9723854064941406e-05
+                },
+                "normalized_scores": {
+                    "ඩිග්‍රීස්": 1.0,
+                    "මොනවද": 0.9399624765478424
+                },
+                "probability_scores": {
+                    "ඩිග්‍රීස්": 0.5154738878143134,
+                    "මොනවද": 0.48452611218568664
+                }
+            }
+        }
+    ],
+    "config": {
+        "case_sensitive": true,
+        "output_mode": "dual",
+        "ranking_length": 10,
+        "metric": "confidence",
+        "ngrams": "-"
+    },
+    "model": {
+        "name": "20221018-182507.tar.gz",
+        "type": "diet",
+        "version": "2.8.8",
+        "path": "./models/",
+        "mode": "local",
+        "url": "-",
+        "fingerprint": "2315a084b7eec6fcae91780e8bbbe7d2"
+    },
+    "data": {
+        "intents": 3,
+        "instances": 64,
+        "tokens": 329,
+        "vocabulary": 116,
+        "path": "./data/",
+        "fingerprint": "2fbbf3afe88ad229a876f18acc08fca2"
+    },
+    "filename": "dime_results_20221018_194604.json"
+}

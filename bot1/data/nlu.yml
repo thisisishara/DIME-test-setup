@@ -1,0 +1,75 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: degrees
+  examples: |
+    - ඔයාලගෙ University එකේ මොනවද තියෙන ඩිග්‍රි?
+    - ඔයාලගෙ University එකේ තියෙන ඩිග්‍රි මොනවද?
+    - ඔයාලගෙ University එකේ තියෙන IT ඩිග්‍රි වර්ග මොනවද?
+    - ඕගොල්ලන්ගෙ University එකේ තියෙන business ඩිග්‍රි මොනවද?
+    - ඕගොල්ලන්ගෙ University එකේ business ඩිග්‍රි තියනවද?
+    - ඔයාලගෙ campus එකේ තියෙන ඩිග්‍රි වර්ග මොනවද ?
+    - ඕගොල්ලන්ගෙ University එකේ ඩිග්‍රි වල තියෙන ස්පෙෂලයිසේෂන්ස් මොනවද?
+    - ඔයාලගෙ University එකේ ඩිග්‍රි වල තියෙන specializations මොනවද?
+    - ඔයාලගෙ campus එකේ ඩිග්‍රි වල තියෙන ස්පෙෂලයිසේෂන්ස් මොනවද?
+    - University එකේ තියෙන IT ඩිග්‍රිවර්ග මොනවද?
+    - University එකේ Data Science ඩිග්‍රි‍ය තියෙනවද?
+    - University එකේ තියෙන ඩිග්‍රිස් මොනවද?
+    - University එකේ කරන්න පුලුවන් ඩිග්‍රීස් වර්ග මොනවද
+    - University මොනවගේ ඩිග්‍රීස් වර්ගද තියෙන්නේ
+    - University එකේ මොනවද තියෙන උපාධි?
+    - University මොනවගේ උපාධි වර්ගද තියෙන්නේ
+    - University එකේ තියෙන උපාධි මොනවද?
+    - ඔයාලගෙ University එකේ data science උපාධි තියනවද?
+    - ඔයාලගෙ University එකේ තියෙන උපාධි වර්ග මොනවද?
+    - ඕගොල්ලන්ගෙ University එකේ IT උපාධි තියනවද?
+    - ඕගොල්ලන්ගෙ University එකේ engineering උපාධි තියනවද?
+    - තියෙන උපාධි වර්ග මොනවද?
+    - ඔයාලගෙ University එකේ මොනවද තියෙන Degrees?
+    - ඔයාලගෙ University එකේ මොනවද තියෙන Degree වර්ග?
+    - ඕගොල්ලන්ගෙ University එකේ business courses තියනවද?
+    - IT Degrees වල තියෙන Specializations මොනවද
+
+- intent: degree_requirements
+  examples: |
+    - ඩිග්‍රියක් කරන්න මට තියෙන්න ඕන රික්වයර්මන්ට්ස් මොනවද?
+    - මට degree එකක් කරන්න ඕන requirements මොනවද
+    - උපාධියක් කරන්න age limit එකක් තියනවද?
+    - උපාධි කරන්න requirements තියනවද?
+    - A level results ආවාට පස්සේ degree එක පටන් ගන්න එකෙයි, results එන්න කලින් පටන් ගන්න එකෙයි වෙනසක් තියෙනවා ද?
+    - degree requirements ගැන තොරතුරු දැනගන්න පුලුවන් ද?
+    - A leval result මදි උනොත් a level ආයෙමත් කරන ගමන් degree එක follow කරන්න පුළුවන් ද?
+    - උපාධියක් කරන්න අවශ්‍යය සුදුසුකම් මොනවද
+    - ඩිග්‍රියක් කරන්න මොනවද තියෙන්න ඕනෙ
+    - engineering කරන්න අවශ්‍ය අවම සුදුසුකම් මොනවද
+    - ඩිග්‍රිවලට අවශ්‍ය අවම සුදුසුකම් කියන්න
+    - IT ඩිග්‍රිවලට A level පාස් වෙන්නම ඕනෙද
+    - IT ඩිග්‍රියක් කරන්න A level පාස් වෙන්න ඕනෙද
+    - IT Degree එකක් කරන්න A level පාස් වෙන්නම ඕනෙද
+    - මේ ඩිග්‍රිය කරන්න තියෙන්න ඕන සුදුසුකම් මොනවද
+    - data science කරන්න ඕන රික්වයර්මන්ට්ස් මොනවද
+    - software engineering කරන්න ඕන රික්වයර්මන්ට්ස් මොනවද
+    - software engineering වලට ඕන රික්වයර්මන්ට්ස් මොනවද
+    - software engineering වලට අවශ්‍ය රික්වයර්මන්ට්ස් මොනවද
+    - software engineering කරන්න requirements තියනවද
+    - data science කරන්න සුදුසුකම් මොනවද
+    - මට a lelvels නැතුව උපාධියක් කරන්න පුලුවන් ද
+    - මට ඒ ලෙවල් එග්සෑම් රිසල්ට්ස් නැතුව කෝස් එකක් පටන් ගන්න පුලුවන් ද
+    - උපාධියකට තෝරගන්න මොනව හරි සුදුසුකම් බලනවද
+    - degrees වල entry requirements මොනවද?

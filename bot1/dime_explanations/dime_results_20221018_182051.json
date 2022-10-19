@@ -1,0 +1,83 @@
+{
+    "timestamp": {
+        "start": "20221018-182042",
+        "end": "20221018-182051"
+    },
+    "dual": [
+        {
+            "instance": "University එකේ තියෙන ඩිග්‍රීස් මොනවද?",
+            "global": {
+                "feature_importance": {
+                    "University": 0.3237534463405609,
+                    "එකේ": 0.026333123445510864,
+                    "තියෙන": 0.009006865322589874,
+                    "ඩිග්‍රීස්": 0.0,
+                    "මොනවද": 0.0
+                },
+                "feature_selection": {
+                    "University": 0.3237534463405609,
+                    "එකේ": 0.026333123445510864,
+                    "තියෙන": 0.009006865322589874
+                },
+                "normalized_scores": {
+                    "University": 1.0,
+                    "එකේ": 0.08133696719883152,
+                    "තියෙන": 0.02782013728161344,
+                    "ඩිග්‍රීස්": 0.0,
+                    "මොනවද": 0.0
+                },
+                "probability_scores": {
+                    "University": 0.901585533699866,
+                    "එකේ": 0.07333223298148701,
+                    "තියෙන": 0.02508223331864699,
+                    "ඩිග්‍රීස්": 0.0,
+                    "මොනවද": 0.0
+                },
+                "predicted_intent": "degrees",
+                "predicted_confidence": 0.9999767541885376
+            },
+            "dual": {
+                "feature_importance": {
+                    "University": 0.0008161067962646484,
+                    "එකේ": 9.417533874511719e-06,
+                    "තියෙන": 5.0067901611328125e-06
+                },
+                "normalized_scores": {
+                    "University": 1.0,
+                    "එකේ": 0.011539585159217061,
+                    "තියෙන": 0.006134969325153374
+                },
+                "probability_scores": {
+                    "University": 0.9826324099325391,
+                    "එකේ": 0.011339170374623224,
+                    "තියෙන": 0.006028419692837663
+                }
+            }
+        }
+    ],
+    "config": {
+        "case_sensitive": true,
+        "output_mode": "dual",
+        "ranking_length": 10,
+        "metric": "confidence",
+        "ngrams": "-"
+    },
+    "model": {
+        "name": "20221018-181206.tar.gz",
+        "type": "diet",
+        "version": "2.8.8",
+        "path": "./models/",
+        "mode": "local",
+        "url": "-",
+        "fingerprint": "981dba758791aa364d872b8cade5c495"
+    },
+    "data": {
+        "intents": 3,
+        "instances": 64,
+        "tokens": 367,
+        "vocabulary": 117,
+        "path": "./data/",
+        "fingerprint": "a3efcabe50c3f61478eac9dedd5c202f"
+    },
+    "filename": "dime_results_20221018_182051.json"
+}

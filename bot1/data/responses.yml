@@ -1,0 +1,14 @@
+version: "2.0"
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_degrees:
+  - text: "your query is a DEGREE related query"
+
+  utter_degree_requirements:
+  - text: "your query is a GRADES related query"
+
+  utter_please_rephrase:
+  - text: "I did not get your query. its a FALLBACK"

@@ -1,0 +1,23 @@
+version: "2.0"
+
+rules:
+
+- rule: Say hi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to degrees
+  steps:
+  - intent: degrees
+  - action: utter_degrees
+
+- rule: Respond to degree_requirements
+  steps:
+  - intent: degree_requirements
+  - action: utter_degree_requirements
+
+- rule: Ask the user to rephrase when NLU confidence is low
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
